@@ -1,0 +1,84 @@
+html{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #121214;
+}
+
+.logo img{
+    width: 229px;
+    height: 68px;
+    margin: 42px 534px 73px 517px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    width: 334px;
+    height: 42px;
+    margin: 0px 482px 61px 464px
+}
+
+.container {
+    max-width: 700px;
+    margin: 0px 290px 116px 272px; 
+}
+
+.profiles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.profile-box {
+    max-width: 160px;
+    max-height: 194px; 
+    color: #9C9C9C; 
+    transition: 0.6s;   
+}
+
+.profile-box:hover{
+    color: white;
+    transition: 0.6s;
+}
+
+.profile-box img {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    border: solid 2px transparent;
+    transition: 0.6s; 
+}
+
+.profile-box img:hover{
+    border-color: white;
+    border-radius: 12px;
+    transition: 0.6s;  
+}
+
+
+.profile-box p {
+    font-size: 14px;
+    text-align: center;
+}
+
+button{
+    width: 206px;
+    height: 50px;
+    border-style: 8px solid; 
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    background-color:#121214;
+    font-size: 16px; 
+    text-align: center;
+    margin: auto 546px 88px 528px;
+    transition: 0.6s;   
+}
+
+button:hover{
+    background-color:white;
+    color: black;
+    transition: 0.6s;
+}
+
+
